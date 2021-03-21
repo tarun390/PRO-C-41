@@ -74,9 +74,6 @@ function draw() {
 	 }
 	}
 	
-	if(frameCount + 20 === frameCount && thunder){
-	  thunder.destroy();
-   }
 	drawSprites();
  
 }
