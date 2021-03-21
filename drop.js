@@ -13,11 +13,6 @@ class Drop {
         World.add(world,this.body);
     }
 
-    rain(){
-        if(this.body.setPosition.y > height){
-            Body.setPosition(this.body,{x:random(0,800),y:random(0,800)})
-        }
-    }
     display(){
         var pos = this.body.position;
         push()
